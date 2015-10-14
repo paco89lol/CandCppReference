@@ -15,8 +15,8 @@ int main(int argc, char **argv)
 	assert(out);
 
 	/*Offset a current pointer of the stream*/
-	//in.seekg(0, in.beg); //optional 
-	//out.seekp(0,out.beg); //optioal 
+	//in.seekg(0, ios::beg); //optional 
+	//out.seekp(0,ios::beg); //optioal 
 
 	/*Method: 1*/
 	out << in.rdbuf() << endl; //rdbuf() is to return a current pointer of the stream.
