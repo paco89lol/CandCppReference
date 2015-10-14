@@ -14,11 +14,21 @@ int main(int argc, char **argv)
 	std::ofstream out("output_text.txt");
 	assert(out);
 
+	/*Offset a current pointer of the stream*/
+	//in.seekg(0, in.beg); //optional 
+	//out.seekp(0,out.beg); //optioal 
+
+	/*Method: 1*/
+	out << in.rdbuf() << endl; //rdbuf() is to return a current pointer of the stream.
+
+	/*Method: 2 */
+	/*
 	while (in.getline(buf, BUFFER_SIZE))
 	{
 		out << buf << std::endl;
 	}
-	
+	*/
+
 	Sleep(2000);
 
 	return 0;

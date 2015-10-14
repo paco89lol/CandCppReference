@@ -1,0 +1,22 @@
+﻿已經開始建置於 2015/9/10 下午 12:02:30。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\window8.1\Documents\Visual Studio 2013\Projects\snack_with_ds\snack_with_ds\snack_with_ds.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(48): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(50): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(114): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(116): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(129): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(131): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(137): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(156): warning C4133: '=' : 不相容的類型 - 從 'Snack *' 至 'Snack *'
+     1>c:\users\window8.1\documents\visual studio 2013\projects\snack_with_ds\snack_with_ds\main.c(182): warning C4013: '_getch' 未定義; 假設 extern 傳回整數
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\window8.1\Documents\Visual Studio 2013\Projects\snack_with_ds\Debug\snack_with_ds.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\window8.1\Documents\Visual Studio 2013\Projects\snack_with_ds\Debug\snack_with_ds.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\window8.1\Documents\Visual Studio 2013\Projects\snack_with_ds\Debug\snack_with_ds.lib" /MACHINE:X86 Debug\main.obj
+         snack_with_ds.vcxproj -> C:\Users\window8.1\Documents\Visual Studio 2013\Projects\snack_with_ds\Debug\snack_with_ds.exe
+     1>專案 "C:\Users\window8.1\Documents\Visual Studio 2013\Projects\snack_with_ds\snack_with_ds\snack_with_ds.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.28
