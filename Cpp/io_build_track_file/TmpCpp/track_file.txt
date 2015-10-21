@@ -1,0 +1,16 @@
+#include <iostream>;
+#include <Windows.h>;
+#include <fstream>;
+#define TRACK_AND_RUN(a) file_track_write << #a << endl; a
+#define WRITE_IN(a) file_track_write << #a << endl;
+using namespace std;
+ofstream file_track_write("track_file.txt");
+int main (int argc, char **argv)
+{
+int num;
+int num1;
+num = 3;
+num = 3;
+printf("The sum is: ", num + num);
+cout << "This is my first Cpp." << endl;
+}

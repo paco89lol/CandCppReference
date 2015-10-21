@@ -11,10 +11,12 @@ int main(int argc, char **argv)
 	FILE *fp_read;
 	FILE *fp_write;
 
+	copy_time = 2;
 	fopen_s(&fp_read, "text.txt", "r");
 	assert(fp_read);
 	fopen_s(&fp_write, "output_text.txt", "w");
 	assert(fp_write);
+
 	for (i = 0; i<copy_time; ++i)
 	{
 		fseek(fp_read,0,SEEK_SET);

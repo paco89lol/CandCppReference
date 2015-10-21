@@ -10,11 +10,13 @@ using namespace std;
 int main(int argc, char **argv)
 {
 	int i, copy_time;
+	
+	copy_time = 2;
 	ifstream file_read("text.txt");
 	assert(file_read);
 	ofstream file_write("output_text.txt");
 	assert(file_write);
-
+	
 	for (i = 0; i<copy_time; ++i)
 	{
 		file_read.seekg(0, ios::beg);
