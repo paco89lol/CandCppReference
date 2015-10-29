@@ -1,0 +1,14 @@
+﻿已經開始建置於 2015/10/26 上午 02:24:39。
+     1>節點 2 (Build 目標) 上的專案 "c:\Users\window8.1\documents\visual studio 2013\Projects\container_vector_and_string\container_vector_and_string\container_vector_and_string.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\window8.1\documents\visual studio 2013\projects\container_vector_and_string\container_vector_and_string\main.cpp(24): warning C4018: '<' : signed/unsigned 不相符
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\window8.1\documents\visual studio 2013\Projects\container_vector_and_string\Debug\container_vector_and_string.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\window8.1\documents\visual studio 2013\Projects\container_vector_and_string\Debug\container_vector_and_string.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\window8.1\documents\visual studio 2013\Projects\container_vector_and_string\Debug\container_vector_and_string.lib" /MACHINE:X86 Debug\main.obj
+         container_vector_and_string.vcxproj -> c:\users\window8.1\documents\visual studio 2013\Projects\container_vector_and_string\Debug\container_vector_and_string.exe
+     1>專案 "c:\Users\window8.1\documents\visual studio 2013\Projects\container_vector_and_string\container_vector_and_string\container_vector_and_string.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.25
